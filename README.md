@@ -13,7 +13,9 @@ This project was part of ITI AI pro 1 Track as A graduation Project
 - The preprocessing was done in a separate step and the data in hand is cleaned. 
 - The preprocessing included letters normalization, removing tashkeel, substitute characters, removing symbols, punctuation, spaces,
 - Tokenization has a pipeline that applies a normal tokenizing for text, removing stop words and removing repeated words. and has its own [NoteBook](https://github.com/Ibn-mohey/Arabic-Text-Summarization/blob/main/Notebooks/sentencepiece_tokenizer.ipynb)
-  
+
+ ---
+ 
 #### Classic ML Modeling (Extractive Text Summarization)
 - Extractive text summarization techniques perform summarization by picking portions of texts and constructing a summary, unlike abstractive techniques which conceptualize a summary and paraphrases it.
 
@@ -26,9 +28,10 @@ TextRank is an extractive and unsupervised text summarization technique.
 
 LexRank: The same approach of TextRank taken is lexrank and then we add what is called Eigenvector centrality, to find out the most important sentences LexRank utilizes eigenvector centrality. The method is called the power iteration method.
   
-#### DL Modeling Transformers
+#### DL Modeling (Transformers)
 Using pre-trained T5 — Text-To-Text Transfer Transformer and fine-tuned on another data set
 - Trained using Kaggle GPU (NVIDIA V100).
+---
 
 #### Model Deployment 
 - the model was deployed on Streamlit API to Be hosted locally any time after downloading the Model, and it's explained in the [file](https://github.com/Ibn-mohey/Arabic-Text-Summarization/blob/main/API/Runable_wep_app.ipynb)
