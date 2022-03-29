@@ -20,11 +20,11 @@ This project was part of ITI AI pro 1 Track as A graduation Project
 - Extractive text summarization techniques perform summarization by picking portions of texts and constructing a summary, unlike abstractive techniques which conceptualize a summary and paraphrases it.
 
 TextRank is an extractive and unsupervised text summarization technique.
-●Then split the text into individual sentences.
-●In the next step, we will tokenize each sentence to make a list of its words.
-●Similarities between sentence lists of words are then calculated and stored in a similarities matrix.
-●The similarity matrix is then converted into a graph, with sentences as vertices and similarity scores as edges, for sentence rank calculation.
-●Finally, a certain number of top-ranked sentences form the final summary.
+- Then split the text into individual sentences.
+- In the next step, we will tokenize each sentence to make a list of its words.
+- Similarities between sentence lists of words are then calculated and stored in a similarities matrix.
+- The similarity matrix is then converted into a graph, with sentences as vertices and similarity scores as edges, for sentence rank calculation.
+- Finally, a certain number of top-ranked sentences form the final summary.
 
 LexRank: The same approach of TextRank taken is lexrank and then we add what is called Eigenvector centrality, to find out the most important sentences LexRank utilizes eigenvector centrality. The method is called the power iteration method.
   
